@@ -1,0 +1,23 @@
+$firstColor: #8d81ac;
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+.btn {
+  border-radius: 40px;
+  background: $firstColor;
+  border-style: none;
+  border: none;
+  color: #ffffff;
+}

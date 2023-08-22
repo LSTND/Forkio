@@ -1,0 +1,53 @@
+.editor {
+	text-align: center;
+}
+.editor-comment {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 15px;
+	color: #848e97;
+	margin-top: 50px;
+	margin-bottom: 66px;
+	@media screen and (max-width: 986px) {
+		margin-bottom: 88px;
+	}
+}
+
+.editor-title {
+	font-weight: 700;
+	font-size: 54px;
+	line-height: 54px;
+	text-transform: uppercase;
+	color: #635c73;
+	padding-bottom: 35px;
+	@media screen and (max-width: 505px) {
+		font-size: 29px;
+	}
+}
+.editor-text {
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 32px;
+	color: #323232;
+	padding-bottom: 13px;
+}
+
+.editor-img-part2 {
+	max-width: 118px;
+	@media screen and (max-width: 387px) {
+		margin-top: 20px;
+	}
+}
+.editor-img-part1 {
+	max-width: 251px;
+	@media screen and (max-width: 387px) {
+		margin-top: 36px;
+	}
+}
+.editor-icons {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	margin-bottom: 14px;
+	flex-wrap: wrap;
+}

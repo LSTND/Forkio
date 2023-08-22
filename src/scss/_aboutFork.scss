@@ -1,0 +1,72 @@
+.section-aboutFork {
+  background: url(../img/AboutForkBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 108px;
+  padding-bottom: 70px;
+}
+.aboutFork-titel {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+.about-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @media (max-width: 700px) {
+    justify-content: center;
+  }
+}
+.about-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 345px;
+  margin-bottom: 112px;
+  img {
+    max-width: fit-content;
+    max-height: fit-content;
+  }
+}
+.about-cards-txt {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.aboutFork-footer {
+  display: flex;
+  text-align: center;
+  position: relative;
+  max-width: 887px;
+  margin: 0 auto;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #a291a5;
+  &::after {
+    content: '';
+    position: absolute;
+    max-width: 780px;
+    height: 2px;
+    background: #645766;
+    bottom: -18px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
